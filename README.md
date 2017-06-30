@@ -1,3 +1,14 @@
+## Installation
+### Linux
+[Download](https://github.com/urankajtazaj/remove-unused/releases/download/v1/cleanFiles.java)
+
+or via Terminal
+
+`wget 'https://github.com/urankajtazaj/remove-unused/releases/download/v1/cleanFiles.java'`
+
+### Windows
+[Download](https://github.com/urankajtazaj/remove-unused/releases/download/v1/cleanFiles.java)
+
 ## Usage
 * Navigate to the directory where the `cleanFiles.java` file is currently (`cd dir/to/cleanFiles.java`)
 * run `java cleanFiles [directory/to/clean] [not used since]`
