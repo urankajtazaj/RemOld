@@ -41,7 +41,7 @@ public class cleanFiles {
 
     private static void ReadFileAttr (String directory, int days){
         double size = 0;
-        DecimalFormat df = new DecimalFormat("###,###.##MB");
+        DecimalFormat df = new DecimalFormat("###,###.## KB");
         try {
             List<String> fileList = getFiles(directory, days);
 
