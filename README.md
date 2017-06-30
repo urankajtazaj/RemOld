@@ -11,7 +11,8 @@ or via Terminal
 
 ## Usage
 * Navigate to the directory where the `cleanFiles.java` file is currently (`cd dir/to/cleanFiles.java`)
-* run `java cleanFiles [directory/to/clean] [not used since]`
+* If it's the first time executing, run `javac cleanFiles.java`
+* Otherwise, run `java cleanFiles [directory/to/clean] [not used since]`
 
 ### Example
 `java cleanFiles c://user/JohnDoe/Downloads 30` - Deletes all files that have not been used for 30 days
