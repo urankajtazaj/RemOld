@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="remove-unused:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/remove_unused_jar</output-path>
+    <root id="archive" name="remove-unused.jar">
+      <element id="module-output" name="remove-unused" />
+    </root>
+  </artifact>
+</component>
