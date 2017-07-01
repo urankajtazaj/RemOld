@@ -41,7 +41,7 @@ public class cleanFiles {
 
     private static void ReadFileAttr (String directory, int days){
         double size = 0;
-        DecimalFormat df = new DecimalFormat("###,###.## KB");
+        DecimalFormat df = new DecimalFormat("###,### KB");
         try {
             List<String> fileList = getFiles(directory, days);
 
@@ -58,7 +58,7 @@ public class cleanFiles {
                     resp = sc.next();
                 }
 
-                if (resp.equals("y") || resp.equals("Y")) {
+                if (resp.matches("y|Y")) {
                     for (String s : fileList) {
                         File f = new File(s);
                         size += f.length();
