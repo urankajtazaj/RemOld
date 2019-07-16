@@ -33,7 +33,7 @@ public class cleanFiles {
         System.out.println("\n\nUSAGE\n");
         System.out.println("cleanFiles [dir/to/clean] [not used since]");
         System.out.println("\nExamples:");
-        System.out.println("java clenaFiles [-h | help]           \t - Shows this menu");
+        System.out.println("java cleanFiles [-h | help]           \t - Shows this menu");
         System.out.println("java cleanFiles /user/home/Downloads 30\t - Deletes all files that are in the 'Downloads' directory and not been used for 30 days");
         System.out.println("java cleanFiles /user/home/Desktop   \t - Deletes all files that are in the 'Desktop' directory and not been used for 60[default] days");
         System.out.println("java cleanFiles                      \t - Deletes all files that are in the 'home'[default] directory and not been used for 60[default] days");
